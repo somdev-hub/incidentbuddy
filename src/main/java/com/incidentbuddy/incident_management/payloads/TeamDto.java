@@ -1,6 +1,6 @@
 package com.incidentbuddy.incident_management.payloads;
 
-import com.incidentbuddy.incident_management.models.Department;
+import com.incidentbuddy.incident_management.models.enums.Department;
 import lombok.Data;
 
 import java.sql.Date;

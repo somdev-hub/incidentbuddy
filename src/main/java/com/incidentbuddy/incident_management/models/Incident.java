@@ -3,6 +3,9 @@ package com.incidentbuddy.incident_management.models;
 import java.sql.Date;
 import java.util.List;
 
+import com.incidentbuddy.incident_management.models.enums.Category;
+import com.incidentbuddy.incident_management.models.enums.IncidentStatus;
+import com.incidentbuddy.incident_management.models.enums.Priority;
 import jakarta.persistence.CascadeType;
 import jakarta.persistence.Entity;
 import jakarta.persistence.FetchType;

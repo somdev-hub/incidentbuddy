@@ -1,9 +1,9 @@
 
 package com.incidentbuddy.incident_management.payloads;
 
-import com.incidentbuddy.incident_management.models.Category;
-import com.incidentbuddy.incident_management.models.IncidentStatus;
-import com.incidentbuddy.incident_management.models.Priority;
+import com.incidentbuddy.incident_management.models.enums.Category;
+import com.incidentbuddy.incident_management.models.enums.IncidentStatus;
+import com.incidentbuddy.incident_management.models.enums.Priority;
 import lombok.Data;
 
 import java.sql.Date;
