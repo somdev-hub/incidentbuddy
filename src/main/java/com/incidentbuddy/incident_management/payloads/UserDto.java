@@ -1,6 +1,6 @@
 package com.incidentbuddy.incident_management.payloads;
 
-import com.incidentbuddy.incident_management.models.Role;
+import com.incidentbuddy.incident_management.models.enums.Role;
 import lombok.Data;
 
 @Data

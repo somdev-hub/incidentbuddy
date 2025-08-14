@@ -2,15 +2,15 @@
 
 package com.incidentbuddy.incident_management.payloads;
 
-import com.incidentbuddy.incident_management.models.IncidentStatus;
-import com.incidentbuddy.incident_management.models.TaskStatus;
+import com.incidentbuddy.incident_management.models.Incident;
+import com.incidentbuddy.incident_management.models.enums.TaskStatus;
 import lombok.Data;
 
 import java.sql.Date;
 @Data
 public class TaskDto {
     private Integer id;
-    private Integer incidentId;
+    private Incident incident;
     private Integer assigneeId;
     private String description;
     private TaskStatus status;

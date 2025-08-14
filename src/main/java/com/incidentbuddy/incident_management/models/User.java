@@ -2,6 +2,7 @@ package com.incidentbuddy.incident_management.models;
 
 import java.util.List;
 
+import com.incidentbuddy.incident_management.models.enums.Role;
 import io.micrometer.common.lang.NonNull;
 import jakarta.persistence.CascadeType;
 import jakarta.persistence.Column;

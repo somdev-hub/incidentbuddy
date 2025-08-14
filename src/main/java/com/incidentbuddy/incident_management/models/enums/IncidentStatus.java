@@ -1,4 +1,4 @@
-package com.incidentbuddy.incident_management.models;
+package com.incidentbuddy.incident_management.models.enums;
 
 public enum IncidentStatus {
     NEW,

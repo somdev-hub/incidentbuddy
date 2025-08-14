@@ -10,7 +10,7 @@ public class FollowUpDto {
     private Integer id;
     private Date postedOn;
     private Integer taskId;
-    private String comment;
+    private CommentDto comment;
 
     // Getters and setters
     // ... (implement as above)
