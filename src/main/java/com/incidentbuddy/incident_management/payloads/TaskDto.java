@@ -2,6 +2,8 @@
 
 package com.incidentbuddy.incident_management.payloads;
 
+import com.incidentbuddy.incident_management.models.IncidentStatus;
+import com.incidentbuddy.incident_management.models.TaskStatus;
 import lombok.Data;
 
 import java.sql.Date;
@@ -11,7 +13,7 @@ public class TaskDto {
     private Integer incidentId;
     private Integer assigneeId;
     private String description;
-    private String status;
+    private TaskStatus status;
     private Date createdDate;
     private Date dueDate;
 

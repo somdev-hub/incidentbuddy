@@ -1,5 +1,6 @@
 package com.incidentbuddy.incident_management.payloads;
 
+import com.incidentbuddy.incident_management.models.Department;
 import lombok.Data;
 
 import java.sql.Date;
@@ -8,7 +9,7 @@ import java.util.List;
 public class TeamDto {
     private Integer id;
     private String teamCode;
-    private String department;
+    private Department department;
     private Date createdOn;
     private Integer teamLeadId;
     private List<Integer> teamMemberIds;
