@@ -1,5 +1,6 @@
 package com.incidentbuddy.incident_management.payloads;
 
+import com.incidentbuddy.incident_management.models.Role;
 import lombok.Data;
 
 @Data
@@ -9,7 +10,7 @@ public class UserDto {
     private String email;
     private String contact;
     private String profileImage;
-    private String role;
+    private Role role;
     private Integer teamLeadingId;
     private Integer teamId;
 

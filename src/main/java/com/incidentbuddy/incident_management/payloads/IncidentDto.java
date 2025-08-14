@@ -1,6 +1,9 @@
 
 package com.incidentbuddy.incident_management.payloads;
 
+import com.incidentbuddy.incident_management.models.Category;
+import com.incidentbuddy.incident_management.models.IncidentStatus;
+import com.incidentbuddy.incident_management.models.Priority;
 import lombok.Data;
 
 import java.sql.Date;
@@ -10,11 +13,11 @@ public class IncidentDto {
     private Integer id;
     private String title;
     private String description;
-    private String priority;
-    private String status;
+    private Priority priority;
+    private IncidentStatus status;
     private Date dateReported;
     private Date dateResolved;
-    private String category;
+    private Category category;
     private Integer reporterId;
     private Integer assignedToTeamId;
     private Integer managerId;
