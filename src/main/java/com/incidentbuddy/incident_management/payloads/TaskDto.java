@@ -1,12 +1,12 @@
 
-
 package com.incidentbuddy.incident_management.payloads;
 
-import com.incidentbuddy.incident_management.models.IncidentStatus;
+import java.sql.Date;
+
 import com.incidentbuddy.incident_management.models.TaskStatus;
+
 import lombok.Data;
 
-import java.sql.Date;
 @Data
 public class TaskDto {
     private Integer id;

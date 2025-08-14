@@ -1,10 +1,10 @@
 
-
 package com.incidentbuddy.incident_management.payloads;
 
 import lombok.Data;
 
 import java.sql.Date;
+
 @Data
 public class FollowUpDto {
     private Integer id;
